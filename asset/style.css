@@ -1,8 +1,15 @@
+/* ===  Header area ===*/
+
+.navbar ,.navbar-nav, .nav-item {
+    background-color: rgb(163, 185, 255);
+}
+
+
 
 
 /* ===  Banner area ===*/
 .banner-section {
-    background: violet;
+    background: rgba(11, 174, 250, 0.473);
     height: 65vh;
 }
 
@@ -71,4 +78,14 @@
     padding: 16px;
     background-color: rgb(92, 63, 223);
     color: whitesmoke;
+}
+
+/* === footer Section ===*/
+
+.footer-section {
+    padding-top: 70px;
+    background-color: rgb(163, 185, 255);
+}
+.copyrights{
+    padding: 25px;
 }
