@@ -61,3 +61,14 @@
     font-size: 25px;
     padding: 25px;
 }
+
+/* === Contact me Section ===*/
+.contact-section {
+    padding-top: 70px;
+}
+
+.contact-me-btn{
+    padding: 16px;
+    background-color: rgb(92, 63, 223);
+    color: whitesmoke;
+}
