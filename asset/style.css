@@ -1,3 +1,6 @@
+
+
+/* ===  Banner area ===*/
 .banner-area {
     background: violet;
     height: 80vh;
@@ -5,4 +8,17 @@
 
 .quote {
     padding-top: 100px;
+}
+
+/* === Intro Section ===*/
+
+.intro-section{
+    padding-top: 45px;
+}
+.intro-paragraph {
+    padding: 50px 10px;
+}
+
+.intro-paragraph > p {
+    padding-top: 20px;
 }
