@@ -1,9 +1,9 @@
 
 
 /* ===  Banner area ===*/
-.banner-area {
+.banner-section {
     background: violet;
-    height: 80vh;
+    height: 65vh;
 }
 
 .quote {
@@ -21,4 +21,19 @@
 
 .intro-paragraph > p {
     padding-top: 20px;
+}
+
+/* === Services Section ===*/
+
+.services-section {
+    padding-top: 70px;
+    border: 5px solid black;
+}
+.services-card {
+    padding: 25px 25px;
+}
+.card-img-top {
+    
+    height: 200px;
+    border-radius: 20%;
 }
