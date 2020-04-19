@@ -1,10 +1,11 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Roboto|Roboto+Mono&display=swap');
+
 /* ===  Header area ===*/
 
 .navbar ,.navbar-nav, .nav-item {
     background-color: rgb(163, 185, 255);
 }
-
-
 
 
 /* ===  Banner area ===*/
@@ -15,6 +16,9 @@
 
 .quote {
     padding-top: 100px;
+}
+.banner-quote{
+    font-family: var(--Baloo-Tamma);
 }
 
 /* === Intro Section ===*/
