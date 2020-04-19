@@ -1,16 +1,34 @@
+@import url(../variables.css);
+
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Roboto|Roboto+Mono&display=swap');
 
 /* ===  Header area ===*/
 
-.navbar ,.navbar-nav, .nav-item {
-    background-color: rgb(163, 185, 255);
+.navbar{
+    background-color: rgb(19, 8, 68);
+    border:  1px solid wheat;
+}
+
+.navbar-toggler{
+    background-color: wheat;
+    border: 1px solid wheat;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+    font-size: 24px;
+}
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: wheat;
 }
 
 
 /* ===  Banner area ===*/
 .banner-section {
-    background: rgba(11, 174, 250, 0.473);
+    background: rgb(19, 8, 68);
     height: 65vh;
 }
 
@@ -18,7 +36,14 @@
     padding-top: 100px;
 }
 .banner-quote{
-    font-family: var(--Baloo-Tamma);
+    font-family: "Roboto",sans-serif;
+    color: whitesmoke;
+}
+
+.banner-quote-by a {
+    font-family: "Roboto",sans-serif;
+    color: wheat;
+    text-decoration: none;
 }
 
 /* === Intro Section ===*/
@@ -80,7 +105,7 @@
 
 .contact-me-btn{
     padding: 16px;
-    background-color: rgb(92, 63, 223);
+    background-color: rgb(19, 8, 68);
     color: whitesmoke;
 }
 
@@ -88,7 +113,7 @@
 
 .footer-section {
     padding-top: 70px;
-    background-color: rgb(163, 185, 255);
+    background-color: rgb(19, 8, 68);
 }
 .copyrights{
     padding: 25px;
