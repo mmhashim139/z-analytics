@@ -50,14 +50,38 @@
 .intro-section{
     padding-top: 45px;
 }
-.intro-paragraph {
-    padding: 50px 10px;
+
+.intro-img {
+ padding: 3%;
+}
+.intro-paragraph > h2{
+    padding: 10px 10px;
+    font-size: 36px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: rgb(19, 8, 68);
 }
 
 .intro-paragraph > p {
     padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: rgba(0, 0, 0, 0.8);
 }
 
+/* === button style ===*/
+.z-btn {
+    padding: 8px;
+    background-color: rgb(19, 8, 68);
+    color: wheat;
+}
+.z-btn:hover {
+    padding: 8x;
+    background-color: wheat;
+    color: rgb(19, 8, 68);
+    font-weight: bold;
+    border-color: 2px solid wheat;
+}
 /* === Services Section ===*/
 
 .services-section {
@@ -103,9 +127,11 @@
 }
 
 .contact-me-btn{
-    padding: 16px;
+    padding: 10px;
+    font-size: 32px;
+    height: 70px ; width: 240px;
     background-color: rgb(19, 8, 68);
-    color: whitesmoke;
+    color: wheat;
 }
 
 /* === footer Section ===*/
