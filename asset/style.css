@@ -96,7 +96,13 @@
 
 }
 .card{
-    box-shadow: 10px 10px 10px rgb(19, 8, 68);
+    border: 1px solid rgba(19, 8, 68, 0.3);
+    box-shadow: 10px 10px 10px rgba(19, 8, 68, 0.3);
+    margin: 25px;
+    border-radius: 50px;
+}
+.card:hover {
+    box-shadow: 10px 10px 10px rgba(19, 8, 68, 0.9);
     margin: 25px;
     border-radius: 50px;
 }
@@ -138,28 +144,71 @@
 /* === About me Section ===*/
 
 .about-me-section{
-    padding-top: 70px;
+     margin: 5%;
+}
+.about-me-row{
+    border: 1px groove rgba(19, 8, 68, 0.3);
+    box-shadow: 10px 10px 10px rgba(19, 8, 68, 0.5); 
+}
+
+.about-me-section > h2{
+    border: 1px solid rgba(155, 142, 185, 0.4);
+    margin: 20px;
+    padding: 20px;
+    font-size: 48px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: rgb(19, 8, 68);
+    text-shadow: 2px 2px rgba(155, 142, 185, 0.4);
 }
 .about-me-col .about-me{
     padding-top: 30px;
     text-align: center;
 }
+
+.about-me-col .about-me > h3 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(19, 8, 68);  
+}
 .my-img {
+    vertical-align: center;
+    margin-top: 25px;
     padding: 3%;
+    
+}
+.my-img-img{
     border-radius: 75%;
 }
 
 .about-me-section h3{
     padding-bottom: 15px;
 }
+
+.about-me > p {
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
 .about-me-socials .fa {
-    font-size: 25px;
-    padding: 25px;
+    justify-content: center;
+    font-size: 32px;
+    padding: 32px;
+    color: rgb(19, 8, 68)
+}
+
+.about-me-socials .fa:hover{
+    color: wheat;
+    font-size: 36px;
+    text-shadow: 2px 2px rgba(19, 8, 68, 0.8);
 }
 
 /* === Contact me Section ===*/
 .contact-section {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .contact-me-btn{
@@ -168,6 +217,7 @@
     height: 70px ; width: 240px;
     background-color: rgb(19, 8, 68);
     color: wheat;
+    border: solid 1px rgba(255, 51, 0, 0.842);
 }
 
 /* === footer Section ===*/
