@@ -18,10 +18,12 @@
     color: whitesmoke;
     font-size: 24px;
     font-family: 'Dosis',sans-serif;
+    text-shadow: 2px 2px rgba(137, 104, 212, 0.4);
 }
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-nav .nav-link:hover{
     color: wheat;
+    text-shadow: 2px 2px rgba(137, 104, 212, 0.4);
 }
 
 
@@ -35,14 +37,17 @@
     padding-top: 100px;
 }
 .banner-quote{
+    font-size: 38px;
     font-family: 'Dosis',sans-serif;
     color: whitesmoke;
+    text-shadow: 2px 2px rgba(137, 104, 212, 0.4);
 }
 
 .banner-quote-by a {
     font-family: 'Roboto',sans-serif;
     color: wheat;
     text-decoration: none;
+    font-size: 20px;
 }
 
 /* === Intro Section ===*/
@@ -60,13 +65,15 @@
     font-family: 'Dosis',sans-serif;
     font-weight: bold;
     color: rgb(19, 8, 68);
+    text-shadow: 2px 2px rgba(137, 104, 212, 0.4);
 }
 
 .intro-paragraph > p {
-    padding-top: 20px;
+    padding: 10px;
     font-size: 18px;
     font-family: 'Roboto',sans-serif;
     color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
 }
 
 /* === button style ===*/
@@ -86,18 +93,47 @@
 
 .services-section {
     padding-top: 70px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+
 }
-.services-card {
-    padding: 25px;
+.card{
+    box-shadow: 10px 10px 10px rgb(19, 8, 68);
+    margin: 25px;
+    border-radius: 50px;
 }
-.card-img-top {
-    
-    height: 200px;
-    border-radius: 20%;
+.services-section > h1{
+    font-size: 48px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: rgb(19, 8, 68);
+    text-shadow: 2px 2px rgba(155, 142, 185, 0.4);
 }
 
+.card-title{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Dosis',sans-serif;
+    color: rgb(19, 8, 68);
+}
+
+.card-text{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.card-img-top {
+    height: 175px;
+    border-radius: 70px;
+}
+
+.list-group-item {
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: rgba(19, 8, 68, 0.7);
+    text-align: center;
+}
 
 /* === About me Section ===*/
 
