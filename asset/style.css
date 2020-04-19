@@ -1,7 +1,5 @@
-@import url(../variables.css);
-
 /* Google font */
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Roboto|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto&display=swap');
 
 /* ===  Header area ===*/
 
@@ -19,6 +17,7 @@
 .navbar-light .navbar-nav .nav-link{
     color: whitesmoke;
     font-size: 24px;
+    font-family: 'Dosis',sans-serif;
 }
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-nav .nav-link:hover{
@@ -36,12 +35,12 @@
     padding-top: 100px;
 }
 .banner-quote{
-    font-family: "Roboto",sans-serif;
+    font-family: 'Dosis',sans-serif;
     color: whitesmoke;
 }
 
 .banner-quote-by a {
-    font-family: "Roboto",sans-serif;
+    font-family: 'Roboto',sans-serif;
     color: wheat;
     text-decoration: none;
 }
