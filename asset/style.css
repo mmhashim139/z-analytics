@@ -371,127 +371,8 @@
 
 /*=== Media Queries ===*/
 
-@media only screen and (max-width: 340px) {
-    .banner-section{
-        height: 80vh;
-    }
-    .quote {
-        padding-top: 20px;
-    }
-    .banner-quote{
-        font-size: 26px;
-    }
-    .intro-paragraph > h2 {
-        font-size: 26px;
-        padding-top: 30px;
-    }
-    .intro-img {
-        padding: 0;
-    }
-    .services-section > h1{
-        font-size: 36px;
-    }
-    .card {
-        width: 80% !important;
-    }
-    .about-me-section > h2{
-        font-size: 36px;
-    }
-    .about-me-col .about-me > h3 {
-        font-size: 36px;
-    }
-    .about-me-socials .fa {
-        justify-content: center;
-        padding: 10px;
-    }
-    .contact-section > h3 {
-        font-size: 36px;
-    }
-}
 
-@media only screen and (max-width: 640px) {
-    .banner-section{
-        height: 70vh;
-    }
-    .quote {
-        padding-top: 20px;
-    }
-    .banner-quote{
-        padding-top: 100px;
-        font-size: 26px;
-    }
-    .intro-paragraph > h2 {
-        font-size: 26px;
-        padding-top: 30px;
-    }
-    .intro-img {
-        padding: 0;
-    }
-    .services-section > h1{
-        font-size: 36px;
-    }
-    .card {
-        width: 80% !important;
-       margin-bottom: 25px 0px;
-    }
-
-    .about-me-section > h2{
-        font-size: 36px;
-    }
-    .about-me-col .about-me > h3 {
-        font-size: 36px;
-    }
-    .about-me-socials .fa {
-        justify-content: center;
-        padding: 10px;
-    }
-    .contact-section > h3 {
-        font-size: 36px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-.banner-section{
-        height: 50vh;
-    }
-    .quote {
-        padding-top: 20px;
-    }
-    .banner-quote{
-        padding-top: 100px;
-        font-size: 26px;
-    }
-    .intro-paragraph > h2 {
-        font-size: 26px;
-        padding-top: 30px;
-    }
-    .intro-img {
-        padding: 0;
-    }
-    .services-section > h1{
-        font-size: 36px;
-    }
-    .card {
-        width: 80% !important;
-       margin-bottom: 0pxx 0px;
-    }
-
-    .about-me-section > h2{
-        font-size: 36px;
-    }
-    .about-me-col .about-me > h3 {
-        font-size: 36px;
-    }
-    .about-me-socials .fa {
-        justify-content: center;
-        padding: 10px;
-    }
-    .contact-section > h3 {
-        font-size: 36px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     .banner-section{
         height: 70vh;
     }
@@ -534,11 +415,122 @@
     }
 }
 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-        .card {
-        width: 80% !important;
-       
-    }
 } 
+@media only screen and (max-width: 992px) {
+.banner-section{
+        height: 50vh;
+    }
+    .quote {
+        padding-top: 20px;
+    }
+    .banner-quote{
+        padding-top: 100px;
+        font-size: 26px;
+    }
+    .intro-paragraph > h2 {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .intro-img {
+        padding: 0;
+    }
+    .services-section > h1{
+        font-size: 36px;
+    }
+    .card {
+        width: 80% !important;
+       margin-bottom: 0pxx 0px;
+    }
+
+    .about-me-section > h2{
+        font-size: 36px;
+    }
+    .about-me-col .about-me > h3 {
+        font-size: 36px;
+    }
+    .about-me-socials .fa {
+        justify-content: center;
+        padding: 10px;
+    }
+    .contact-section > h3 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-section{
+        height: 70vh;
+    }
+    .quote {
+        padding-top: 20px;
+    }
+    .banner-quote{
+        padding-top: 100px;
+        font-size: 26px;
+    }
+    .intro-paragraph > h2 {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .intro-img {
+        padding: 0;
+    }
+    .services-section > h1{
+        font-size: 36px;
+    }
+    .card {
+        width: 80% !important;
+       margin-bottom: 25px 0px;
+    }
+
+    .about-me-section > h2{
+        font-size: 36px;
+    }
+    .about-me-col .about-me > h3 {
+        font-size: 36px;
+    }
+    .about-me-socials .fa {
+        justify-content: center;
+        padding: 10px;
+    }
+    .contact-section > h3 {
+        font-size: 36px;
+    }
+}
+
+
+@media only screen and (max-width: 340px) {
+    .banner-section{
+        height: 80vh;
+    }
+    .quote {
+        padding-top: 20px;
+    }
+    .banner-quote {
+        font-size: 26px;
+    }
+    .intro-paragraph > h2 {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .intro-img {
+        padding: 0;
+    }
+    .services-section > h1 {
+        font-size: 36px;
+    }
+
+    .about-me-section > h2{
+        font-size: 36px;
+    }
+    .about-me-col .about-me > h3 {
+        font-size: 36px;
+    }
+    .about-me-socials .fa {
+        justify-content: center;
+        padding: 10px;
+    }
+    .contact-section > h3 {
+        font-size: 36px;
+    }
+}
