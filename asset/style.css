@@ -74,21 +74,33 @@
 }
 
 /* === button style ===*/
-.z-btn {
+.z-btn , .contact-me-btn {
     padding: 8px;
     background-color: #4285F4 ;
     color:  white ;
+    font-size: 16px;
+    font-family: 'Taviraj', sans-serif;
+    -webkit-box-shadow: 0px 0px 22px -3px  #7195BD;
+    -moz-box-shadow: 0px 0px 22px -3px  #7195BD;
+    box-shadow: 0px 0px 22px -3px #7195BD;
+    border-radius: 15px;
 }
 .z-btn a{
     color: inherit;
     text-decoration: inherit;
 }
-.z-btn:hover {
+.z-btn:hover ,.contact-me-btn:hover {
     padding: 8x;
     background-color: #F58410 ;
     color: white;
     font-weight: bold;
+    font-size: 18px;
+    font-family: 'Taviraj', sans-serif;
     border-color: 2px solid #D0B44E;
+    -webkit-box-shadow: 0px 0px 22px -3px  #F58410;
+    -moz-box-shadow: 0px 0px 22px -3px  #F58410;
+    box-shadow: 0px 0px 22px -3px #F58410;
+    border-radius: 15px;
 }
 /* === Services Section ===*/
 
@@ -98,15 +110,19 @@
 }
 .card{
     border: 1px solid #4285F4;
-    box-shadow: 10px 10px 10px #7195BD;
     margin: 25px;
     border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 22px -3px  #7195BD;
+    -moz-box-shadow: 0px 0px 22px -3px  #7195BD;
+    box-shadow: 0px 0px 22px -3px #7195BD;
 }
 .card:hover {
     border: 1px solid #D0B44E;
-    box-shadow: 10px 10px 10px #F58410;
     margin: 25px;
     border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 22px -3px  #F58410;
+    -moz-box-shadow: 0px 0px 22px -3px  #F58410;
+    box-shadow: 0px 0px 22px -3px #F58410;
 }
 .services-section > h1{
     font-size: 48px;
@@ -151,7 +167,9 @@
 }
 .about-me-row{
     border: 1px groove #FFC416;
-    box-shadow: 10px 10px 10px #D0B44E; 
+    -webkit-box-shadow: 0px 0px 22px -3px  #FFC416;
+    -moz-box-shadow: 0px 0px 22px -3px  #FFC416;
+    box-shadow: 0px 0px 22px -3px #FFC416; 
 }
 
 .about-me-section > h2{
@@ -222,13 +240,9 @@
     color: #4285F4;
 }
 
-.contact-me-btn{
-    padding: 10px;
+.contact-me-btn , .contact-me-btn:hover {
     font-size: 32px;
     height: 70px ; width: 240px;
-    background-color:  #4285F4;
-    color: white;
-    border: solid 1px #D0B44E;
 }
 .modal-content,.form-control {
     background-color: white;
