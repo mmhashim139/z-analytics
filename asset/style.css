@@ -208,6 +208,8 @@
 }
 
 /* === Contact me Section ===*/
+
+
 .contact-section {
     padding-top: 20px;
 }
@@ -309,6 +311,13 @@
 /* ===  ======  ======  ======  ======  ======  ======  ======  ======  ======  ======  ======  ======  ===*/
 /* ===  ======  ======  ======  ======  ====== Services Page  ======  ======  ======  ======  ======  ===*/
 /*=== Service Title ===*/
+
+.seperator-org {
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 10px;
+    background-color: #FFC416;
+}
 .service-title h2{
     margin: 20px;
     padding: 20px;
