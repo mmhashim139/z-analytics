@@ -32,15 +32,13 @@
 
  
 /* ===  Banner area ===*/
-.banner-section {
-    height: 65vh;
-}
 
 .quote {
     padding-top: 100px;
 }
 .banner-quote{
     font-size: 28px;
+    font-weight: bold;
     font-family: 'Taviraj',sans-serif;
     color: #4285F4;
 }
@@ -361,9 +359,7 @@
 
 
 @media only screen and (max-width: 1200px) {
-    .banner-section{
-        height: 70vh;
-    }
+
     .quote {
         padding-top: 80px;
     }
@@ -405,9 +401,7 @@
 
 } 
 @media only screen and (max-width: 992px) {
-.banner-section{
-        height: 50vh;
-    }
+
     .quote {
         padding-top: 20px;
     }
@@ -446,9 +440,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .banner-section{
-        height: 70vh;
-    }
+
     .quote {
         padding-top: 20px;
     }
@@ -488,9 +480,7 @@
 
 
 @media only screen and (max-width: 340px) {
-    .banner-section{
-        height: 80vh;
-    }
+
     .quote {
         padding-top: 20px;
     }
