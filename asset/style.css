@@ -49,8 +49,20 @@
     text-decoration: none;
     font-size: 16px;
 }
+.dashboard-img{
+    animation-name: dashboard;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
 
-
+@keyframes dashboard {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
 /* === Intro Section ===*/
 
 .intro-section{
@@ -287,7 +299,8 @@
 
 .footer-section {
     margin-top: 50px;
-    background-color: white;
+    padding-top: 22px;
+    background-color: rgba(255, 197, 22, 0.44);
 }
 .footer-section .contact-info > h4 {
     padding: 10px 10px;
@@ -371,15 +384,10 @@
 }
 
 .gtm-service-section{
-    background-color: rgba(255, 197, 22, 0.308);
+    background-color: rgba(255, 197, 22, 0.44);
 }
 
-/*.gtm-service-section .service-title h2 ,
-.gtm-service-section .service-description h3 ,
-.gtm-service-section .service-description p  {
-    color: white;
-}
-*/
+
 .separator {
     margin-top: 100px;
     height: 200px;;
