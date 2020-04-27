@@ -401,35 +401,80 @@
 
 
 /*=== Media Queries ===*/
-
-/* Medium devices (portrait tablets and large phones,, 768px and down) */
-@media only screen and (max-width: 990px) {
-
-
-    .quote , .banner-quote-2{
-        padding-top:20px;
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) {
+    .quote{
+        padding-top: 50px;
+    }
+    .banner-quote-2{
+        padding-top: 5px;
+    }
+    .intro-paragraph > h2 ,
+    .card-title ,
+    .about-me-section > h2{
+        font-size: 28px;
+    }
+    .intro-paragraph > p,
+    .about-me > p ,
+    .service-description p{
+        font-size: 18px;
+    }
+    .services-section > h1,
+    .separator .banner-quote {
+        font-size: 32px;
+    }
+    .about-me-col .about-me > h3 ,
+    .contact-section > h3 ,
+    .service-description h3{
+        font-size: 24px;
+    }
+    .intro-paragraph > h2,
+    .intro-paragraph > p ,
+    .service-description p ,
+    .service-description h3 {
+        text-align: center;
     }
     .card {
-        width: unset !important;
         margin: 10px 0px;
     }
-    .my-img-img {
-        margin: 10px 90px;
-    }
-    .z-img {
-        margin: 10px 50px;
+    .about-me-socials .fa {
+        padding: 18px;
     }
     .footer-section .contact-info > h4 ,
     .footer-socials > h4 {
-        font-size: 32px;
+        font-size: 24px;
     }
     .footer-socials .about-me-socials .fa {
         padding: 5px;
     }
+    .contact-me-btn, .contact-me-btn:hover{
+        height: 60px; width: 200px;
+        padding: 0px;
+        line-height: initial;
+    }
+    .modal-title{
+        font-size: 24px;
+    }
+    .service-title h2{
+        font-size: 28px;
+        margin: auto;
+        padding: auto;
+    }
+    .service-card-2 {
+        margin: 10px -10px;
+    }
+    .f-btn{
+        width: 110px;
+    }
+    .my-img-img {
+        margin: 10px 0px;
+    }
+    .z-img {
+        margin: 10px 0px;
+    }
 }
-
-/* Small devices ( 570px and down) */
-@media only screen and (max-width: 570px) {
+/* Small devices (landscape phones, less than 768px)*/
+@media only screen and (max-width: 767.98px) {
      .quote{
         padding-top: 50px;
     }
@@ -498,73 +543,33 @@
     .f-btn{
         width: 110px;
     }
-}
-
-
-/* Extra small devices (phones, 340px and down) */
-@media only screen and (max-width: 340px) {
-
-    .quote{
-        padding-top: 50px;
-    }
-    .banner-quote-2{
-        padding-top: 5px;
-    }
-    .intro-paragraph > h2 ,
-    .card-title ,
-    .about-me-section > h2{
-        font-size: 28px;
-    }
-    .intro-paragraph > p,
-    .about-me > p ,
-    .service-description p{
-        font-size: 18px;
-    }
-    .services-section > h1,
-    .separator .banner-quote {
-        font-size: 32px;
-    }
-    .about-me-col .about-me > h3 ,
-    .contact-section > h3 ,
-    .service-description h3{
-        font-size: 24px;
-    }
-    .intro-paragraph > h2,
-    .intro-paragraph > p ,
-    .service-description p ,
-    .service-description h3 {
-        text-align: center;
-    }
-    .card {
+    .my-img-img {
         margin: 10px 0px;
     }
-    .about-me-socials .fa {
-        padding: 18px;
+    .z-img {
+        margin: 10px 0px;
+    }
+}
+/* Medium devices (tablets, less than 992px)*/
+@media only screen and (max-width: 991.98px) {
+    .quote , .banner-quote-2{
+        padding-top:20px;
+    }
+    .card {
+        width: unset !important;
+        margin: 10px 0px;
+    }
+    .my-img-img {
+        margin: 10px 90px;
+    }
+    .z-img {
+        margin: 10px 50px;
     }
     .footer-section .contact-info > h4 ,
     .footer-socials > h4 {
-        font-size: 24px;
+        font-size: 32px;
     }
     .footer-socials .about-me-socials .fa {
         padding: 5px;
-    }
-    .contact-me-btn, .contact-me-btn:hover{
-        height: 60px; width: 200px;
-        padding: 0px;
-        line-height: initial;
-    }
-    .modal-title{
-        font-size: 24px;
-    }
-    .service-title h2{
-        font-size: 28px;
-        margin: auto;
-        padding: auto;
-    }
-    .service-card-2 {
-        margin: 10px -10px;
-    }
-    .f-btn{
-        width: 110px;
     }
 }
