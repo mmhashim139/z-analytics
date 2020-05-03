@@ -277,6 +277,12 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
+#form-options {
+    font-size: 24px;
+    font-family: 'Taviraj',sans-serif;
+    color: #4285F4;
+}
+
 .f-btn {
     font-size: 24px;
     height: 50px ; width: 200px;
@@ -302,7 +308,7 @@
     padding-top: 22px;
     background-color: rgba(255, 197, 22, 0.44);
 }
-.footer-section .contact-info > h4 {
+.footer-header{
     padding: 10px 10px;
     font-size: 36px;
     font-family: 'Taviraj',sans-serif;
@@ -311,23 +317,14 @@
     text-align: center;
 }
 
-.footer-section .contact-info > h5 {
+.footer-info {
     font-size: 18px;
+    font-weight: bold;
     font-family: 'Lato',sans-serif;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-
-
-.footer-socials > h4{
-    padding: 10px 10px;
-    font-size: 36px;
-    font-family: 'Taviraj',sans-serif;
-    font-weight: bold;
-    color: #4285F4;
-    text-align: center;
-}
 .copyrights{
     padding: 25px;
 }
@@ -414,8 +411,7 @@
     .z-img {
         margin: 10px 50px;
     }
-    .footer-section .contact-info > h4 ,
-    .footer-socials > h4 {
+    .footer-header {
         font-size: 32px;
     }
     .footer-socials .about-me-socials .fa {
@@ -464,8 +460,7 @@
     .about-me-socials .fa {
         padding: 18px;
     }
-    .footer-section .contact-info > h4 ,
-    .footer-socials > h4 {
+    .footer-header {
         font-size: 24px;
     }
 
@@ -533,8 +528,7 @@
     .about-me-socials .fa {
         padding: 18px;
     }
-    .footer-section .contact-info > h4 ,
-    .footer-socials > h4 {
+    .footer-header {
         font-size: 24px;
     }
     .footer-socials .about-me-socials .fa {
