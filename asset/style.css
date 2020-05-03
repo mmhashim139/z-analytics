@@ -100,7 +100,7 @@
     text-decoration: inherit;
 }
 .z-btn:hover ,.contact-me-btn:hover {
-    padding: 10x;
+    padding: 10px;
     background-color: #F58410 ;
     color: white;
     font-size: 16px;
@@ -483,7 +483,6 @@
     .service-title h2{
         font-size: 28px;
         margin: auto;
-        padding: auto;
     }
 
     .f-btn{
@@ -552,7 +551,6 @@
     .service-title h2{
         font-size: 28px;
         margin: auto;
-        padding: auto;
     }
 
     .f-btn{
